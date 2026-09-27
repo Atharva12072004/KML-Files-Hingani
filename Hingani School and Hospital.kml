@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hingani School and Hospital.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Road Connectivity 2</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				74.87798406311616,17.65620910569011,0 74.87798875093674,17.65657755036159,0 74.87765146857332,17.65678365725437,0 74.87739780835017,17.65694213715363,0 74.8773839360228,17.6569578866213,0 74.87734146703272,17.65700973739603,0 74.87731937567241,17.65703901919409,0 74.87728334865531,17.65708346204633,0 74.87726282706095,17.6571054024511,0 74.87722158682267,17.65714931556132,0 74.87718161362278,17.65718657482003,0 74.87716244733825,17.6572015406264,0 74.8771380622255,17.65721652663024,0 74.87711551399356,17.65722401044038,0 74.87709486789645,17.65722395184064,0 74.87707813248687,17.65720882315786,0 74.87687602833971,17.65735490957177,0 74.87675360692421,17.65742702410319,0 74.87660785896243,17.65784218933634,0 74.87625866595923,17.65812676910096,0 74.87608600216875,17.6580716620608,0 74.8758731750529,17.65803740604932,0 74.87567734369431,17.65810191186357,0 74.8752890452417,17.65844919516594,0 74.87523456675491,17.65850551271258,0 
+			</coordinates>
+		</LineString>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>
