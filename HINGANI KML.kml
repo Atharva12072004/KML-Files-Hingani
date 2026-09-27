@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>HINGANI KML.kml</name>
+	<StyleMap id="plotPolyStyle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plotPolyStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plotPolyStyle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plotPolyStyle0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="plotPolyStyle1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Survey 101/5 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 30 Ha 20 R 72 Sq.Mtr (302,072 Sq.Mtr / 74.6435 Acre / 3020.72 Guntha)<br/>
+      <b>Reported Compound Length:</b> 3480.14 m<br/>
+      <b>Reported Boundary:</b> North: Sulewadi,101/3,101/4(Hingani) | East: Sulewadi,137,101/4(Hingani) | South: 137,101/6(Hingani) | West: 101/1,101/3(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~30.63 Ha (vs reported 30.2072 Ha -&gt; +1.4% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.8908205,17.6579945,0 74.8903337,17.656212,0 74.89000059999999,17.6557237,0 74.8893856,17.6553574,0 74.88905250000001,17.6553574,0 74.8850296,17.6528669,0 74.8864645,17.652989,0 74.8893856,17.6503031,0 74.89071800000001,17.6543563,0 74.8921017,17.6539168,0 74.8949203,17.6525739,0 74.8962015,17.6531599,0 74.89609900000001,17.6533308,0 74.8952278,17.6533553,0 74.894741,17.6535506,0 74.8935623,17.6550889,0 74.8934598,17.6559679,0 74.8924604,17.6569445,0 74.8924092,17.6572864,0 74.8908205,17.6579945,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hingani Final KML File</name>
+	<open>1</open>
+	<description><![CDATA[APPROXIMATE, DIGITIZED boundary polygons for Survey No. 101 sub-plots (101/2, 101/3, 101/4, 101/5),
+    Hingani village, Man taluka, Satara district, Maharashtra.<br/><br/>
+    <b>Method:</b> traced the yellow boundary line from each report's satellite-map image, calibrated scale using
+    the line's own centerline length (averaging its outer and inner edge, to correct for the line's drawn thickness)
+    against the report's stated compound length, oriented using the printed North arrow, and anchored using the
+    report's given Lat/Long as the polygon's centroid.<br/><br/>
+    <b>Accuracy (v2, corrected):</b> digitized area vs. reported area is within -9.2% to +1.4% across the 4 plots
+    (avg abs. error ~5%) - see per-plot notes below for exact figures. This is a strong visual approximation,
+    NOT survey-grade or legally valid data. For anything official, use a licensed surveyor or the government
+    cadastral portal (Bhulekh / MahaBhunakasha).]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plotPolyStyle">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plotPolyStyle2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plotPolyStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plotPolyStyle4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="plotPolyStyle3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plotPolyStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plotPolyStyle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plotPolyStyle4">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="plotPolyStyle0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="plotPolyStyle1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark id="1.2.1">
+		<name>Marathi School Hingni</name>
+		<address>JVQG+CH4, Hingani, Maharashtra 415509</address>
+		<snippet>JVQG+CH4, Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6385103&lng=74.8764471&fid=0x3bc3f9f8e651619f:0xe5a4742765f0a7ce&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6385103&amp;lng=74.8764471&amp;fid=0x3bc3f9f8e651619f:0xe5a4742765f0a7ce&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.8764429,17.6385539,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.87227321653849,17.63542663740386,0 74.87227321653849,17.64168116259614,0 74.88061258346151,17.64168116259614,0 74.88061258346151,17.63542663740386,0 74.87227321653849,17.63542663740386,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Jai Bhagwan Hospital</name>
+		<address>1, Satara - Pandharpur Rd, Mhaswad, Maharashtra 415509</address>
+		<snippet>1, Satara - Pandharpur Rd, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.635099999999998&lng=74.78101699999999&fid=0x3bc3faab2ee892f7:0x104a8a5569a3984b&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.635099999999998&amp;lng=74.78101699999999&amp;fid=0x3bc3faab2ee892f7:0x104a8a5569a3984b&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.78101699999999,17.6351,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.77684723977397,17.63197267983048,0 74.77684723977397,17.63822732016952,0 74.78518676022601,17.63822732016952,0 74.78518676022601,17.63197267983048,0 74.77684723977397,17.63197267983048,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Khot Hospital</name>
+		<address>Shree Datta Chowk, Shahada, Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>075883 83234</phoneNumber>
+		<snippet>Shree Datta Chowk, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.633994100000002&lng=74.7864434&fid=0x3bc3fb7b4798cf8f:0x4d72d84c55825b20&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.633994100000002&amp;lng=74.7864434&amp;fid=0x3bc3fb7b4798cf8f:0x4d72d84c55825b20&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7864434,17.6339941,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78227361784126,17.63086676338094,0 74.78227361784126,17.63712143661905,0 74.79061318215874,17.63712143661905,0 74.79061318215874,17.63086676338094,0 74.78227361784126,17.63086676338094,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Doltade Hospital</name>
+		<address>Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>095611 90356</phoneNumber>
+		<snippet>Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6353&lng=74.7849&fid=0x3bc3ef843676cb1b:0x462a2771adb3a523&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6353&amp;lng=74.7849&amp;fid=0x3bc3ef843676cb1b:0x462a2771adb3a523&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>74.77705,17.6405472,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Raut nursing home</name>
+		<address>1, Satara - Pandharpur Rd, Shahada, Mhaswad, Maharashtra 415509</address>
+		<snippet>1, Satara - Pandharpur Rd, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6363075&lng=74.7865103&fid=0x3bc3fb8ce201ac95:0x6bc72e96efc675b9&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6363075&amp;lng=74.7865103&amp;fid=0x3bc3fb8ce201ac95:0x6bc72e96efc675b9&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7865103,17.6363075,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78234057267305,17.63318020450479,0 74.78234057267305,17.63943479549521,0 74.79068002732696,17.63943479549521,0 74.79068002732696,17.63318020450479,0 74.78234057267305,17.63318020450479,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Mary Matha High School</name>
+		<address>JQRC+32R, Satara, Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>070355 19191</phoneNumber>
+		<snippet>JQRC+32R, Satara, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.640245099999998&lng=74.7700139&fid=0x3bc3eff8345d103b:0x8daf608fd34e4cd1&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.640245099999998&amp;lng=74.7700139&amp;fid=0x3bc3eff8345d103b:0x8daf608fd34e4cd1&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7700139,17.6402451,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.76584426040391,17.63711787030293,0 74.76584426040391,17.64337232969706,0 74.77418353959608,17.64337232969706,0 74.77418353959608,17.63711787030293,0 74.76584426040391,17.63711787030293,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Dhanvantari Multispeciality Hospital</name>
+		<address>Varkute - Mhaswad Rd, Shahada, Mhaswad, Maharashtra 415509</address>
+		<snippet>Varkute - Mhaswad Rd, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.635344200000002&lng=74.7847414&fid=0x3bc3faabb7a55101:0xfd0656c1556cb435&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.635344200000002&amp;lng=74.7847414&amp;fid=0x3bc3faabb7a55101:0xfd0656c1556cb435&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7847414,17.6353442,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78057165074034,17.63221688805525,0 74.78057165074034,17.63847151194475,0 74.78891114925966,17.63847151194475,0 74.78891114925966,17.63221688805525,0 74.78057165074034,17.63221688805525,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Dnyanvardhini High-school &amp; Junior College</name>
+		<address>JQJV+Q3V, Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>02373 270 102</phoneNumber>
+		<snippet>JQJV+Q3V, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.631987799999997&lng=74.7926653&fid=0x3bc3faa58b9cacd3:0x7367c7386a1c00a&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.631987799999997&amp;lng=74.7926653&amp;fid=0x3bc3faa58b9cacd3:0x7367c7386a1c00a&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7926616,17.6320006,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78849177397584,17.62887323048187,0 74.78849177397584,17.63512796951813,0 74.79683142602417,17.63512796951813,0 74.79683142602417,17.62887323048187,0 74.78849177397584,17.62887323048187,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Primary Health Centre, Mhaswad</name>
+		<address>JQPQ+GPW, MH SH 77, Shahada, Mhaswad, Maharashtra 415509</address>
+		<snippet>JQPQ+GPW, MH SH 77, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6363538&lng=74.78932139999999&fid=0x3bc3faa8552e1b0f:0xe125bc35fc6d181b&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6363538&amp;lng=74.78932139999999&amp;fid=0x3bc3faa8552e1b0f:0xe125bc35fc6d181b&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.78932139999999,17.6363538,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78515167267304,17.63322650450479,0 74.78515167267304,17.63948109549521,0 74.79349112732694,17.63948109549521,0 74.79349112732694,17.63322650450479,0 74.78515167267304,17.63322650450479,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>New Modern School Mhaswad Rd</name>
+		<address>Mhaswad, Maharashtra 415509</address>
+		<snippet>Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6385441&lng=74.77631579999999&fid=0x3bc3e555b827265b:0x57be5da906a52ec5&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#geocode</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6385441&amp;lng=74.77631579999999&amp;fid=0x3bc3e555b827265b:0x57be5da906a52ec5&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.77631579999999,17.6385441,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.77214611653848,17.63541683740386,0 74.77214611653848,17.64167136259614,0 74.7804854834615,17.64167136259614,0 74.7804854834615,17.63541683740386,0 74.77214611653848,17.63541683740386,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Siddhanath High school Mhaswad</name>
+		<address>Satara - Pandharpur Rd, Shahada, Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>02373 270 231</phoneNumber>
+		<snippet>Satara - Pandharpur Rd, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6358949&lng=74.787534&fid=0x3bc3faa97415ca53:0x1c67e7ad650ed1a1&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6358949&amp;lng=74.787534&amp;fid=0x3bc3faa97415ca53:0x1c67e7ad650ed1a1&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.78752919999999,17.6359438,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78335946170668,17.63281649628002,0 74.78335946170668,17.63907110371998,0 74.79169893829331,17.63907110371998,0 74.79169893829331,17.63281649628002,0 74.78335946170668,17.63281649628002,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Krantiveer Shaikshnik Sankul</name>
+		<address>Mhaswad, Maharashtra 415509</address>
+		<snippet>Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.653615800000004&lng=74.7801233&fid=0x3bc3efe270482695:0x135893909998e858&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.653615800000004&amp;lng=74.7801233&amp;fid=0x3bc3efe270482695:0x135893909998e858&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7801233,17.6536158,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.77595396746193,17.65048880059645,0 74.77595396746193,17.65674279940355,0 74.78429263253807,17.65674279940355,0 74.78429263253807,17.65048880059645,0 74.77595396746193,17.65048880059645,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Shrimant Bhaiya Saheb Rajemane College Mhaswad</name>
+		<address>JQPP+7V6, Shahada, Mhaswad, Maharashtra 415509</address>
+		<snippet>JQPP+7V6, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.635665799999998&lng=74.7871394&fid=0x3bc3faa970adc4b7:0xc5be618a9ec63772&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.635665799999998&amp;lng=74.7871394&amp;fid=0x3bc3faa970adc4b7:0xc5be618a9ec63772&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7871107,17.6356628,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.78294095074034,17.63253548805525,0 74.78294095074034,17.63879011194475,0 74.79128044925966,17.63879011194475,0 74.79128044925966,17.63253548805525,0 74.78294095074034,17.63253548805525,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Zila Parishad Primary School</name>
+		<address>Satara, SH-145, Pusegaon Mhaswad Road, Mhaswad, Mhaswad, Maharashtra 415509</address>
+		<phoneNumber>094233 02369</phoneNumber>
+		<snippet>Satara, SH-145, Pusegaon Mhaswad Road, Mhaswad, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.636938&lng=74.78750169999999&fid=0x3bc3faa9974e3831:0x81b1860c39d991e5&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.636938&amp;lng=74.78750169999999&amp;fid=0x3bc3faa9974e3831:0x81b1860c39d991e5&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.78750169999999,17.636938,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.7833319836394,17.63381071272956,0 74.7833319836394,17.64006528727045,0 74.79167141636059,17.64006528727045,0 74.79167141636059,17.63381071272956,0 74.7833319836394,17.63381071272956,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Survey 101/5 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 30 Ha 20 R 72 Sq.Mtr (302,072 Sq.Mtr / 74.6435 Acre / 3020.72 Guntha)<br/>
+      <b>Reported Compound Length:</b> 3480.14 m<br/>
+      <b>Reported Boundary:</b> North: Sulewadi,101/3,101/4(Hingani) | East: Sulewadi,137,101/4(Hingani) | South: 137,101/6(Hingani) | West: 101/1,101/3(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~30.63 Ha (vs reported 30.2072 Ha -&gt; +1.4% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle3</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.8908205,17.6579945,0 74.8903337,17.656212,0 74.89000059999999,17.6557237,0 74.8893856,17.6553574,0 74.88905250000001,17.6553574,0 74.8850296,17.6528669,0 74.8864645,17.652989,0 74.8893856,17.6503031,0 74.89071800000001,17.6543563,0 74.8921017,17.6539168,0 74.8949203,17.6525739,0 74.8962015,17.6531599,0 74.89609900000001,17.6533308,0 74.8952278,17.6533553,0 74.894741,17.6535506,0 74.8935623,17.6550889,0 74.8934598,17.6559679,0 74.8924604,17.6569445,0 74.8924092,17.6572864,0 74.8908205,17.6579945,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Government Hospital</name>
+		<address>JVQG+PG8, Hingani, Maharashtra 415509</address>
+		<snippet>JVQG+PG8, Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.639294300000003&lng=74.876322&fid=0x3bc3f9f8dac5687f:0xbdffdb127e840fd0&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.639294300000003&amp;lng=74.876322&amp;fid=0x3bc3f9f8dac5687f:0xbdffdb127e840fd0&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.876322,17.6392943,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.8721523384712,17.6361670538534,0 74.8721523384712,17.6424215461466,0 74.88049166152881,17.6424215461466,0 74.88049166152881,17.6361670538534,0 74.8721523384712,17.6361670538534,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Z.P.Primary School Khadtarevasti</name>
+		<address>JVJ7+JHP, Hingani, Maharashtra 415509</address>
+		<snippet>JVJ7+JHP, Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6345&lng=74.8505&fid=0x3bc3fa1aeca19847:0x466674e75362d687&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6345&amp;lng=74.8505&amp;fid=0x3bc3fa1aeca19847:0x466674e75362d687&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>74.8639536,17.6315974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Circle 5KM Measure</name>
+		<styleUrl>#inline1</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				74.88461662162344,17.7000657279256,632.3597335495028 74.88874615602364,17.70026120059019,639.1060357245582 74.89287785505917,17.70011293039295,636.6872705293343 74.89698024342506,17.69962204686014,671.7891281958013 74.90102206960705,17.69879228953269,666.5633505557689 74.90497254447561,17.69762997941474,630.0251118711979 74.90880157631833,17.69614397071457,653.6385303225144 74.9124800005016,17.69434558324986,673.393553701197 74.91597980199469,17.69224851603771,635.2155923027556 74.91927432904762,17.68986874273448,628.2720691187084 74.92233849638218,17.6872243897301,622.8123373772164 74.92514897634111,17.68433559783415,607.156629040544 74.92768437653386,17.68122436861671,604.3785214007809 74.9299254026249,17.67791439658426,601.3822334402606 74.93185500502715,17.67443088847835,593.0407911973492 74.93345850838951,17.67080037108282,591.0360056795862 74.93472372290206,17.66705048901213,588.7123391453775 74.93564103658395,17.66320979402852,602.2210983272918 74.93620348786742,17.65930752749922,598.3440880501332 74.93640681794263,17.6553733976558,603.3385424728015 74.93624950248531,17.65143735335542,609.4731265258456 74.93573276254627,17.64752935606916,614.4866652058987 74.93486055454208,17.64367915183374,615.8642839351752 74.93363953944407,17.63991604490189,618.5394308054892 74.93207903142225,17.63626867481179,623.3791288705412 74.93019092635376,17.632764798568,628.2383219098689 74.92798961075862,17.62943107958625,634.2746493915279 74.92549185187082,17.62629288500139,637.022471847176 74.92271666969441,17.62337409287283,643.6177067026645 74.91968519202752,17.62069691074605,664.3406980583478 74.91642049356344,17.618281706941,660.134622218819 74.91294742029585,17.61614685584176,656.4629959260232 74.90929240056263,17.61430859835468,653.9060035658129 74.90548324416196,17.61278091858735,647.4722536137873 74.90154893105939,17.61157543767781,639.925440562985 74.89751939128394,17.61070132557376,636.6168156224644 74.89342527767185,17.61016523142593,633.6926405064914 74.88929773317162,17.60997123311968,630.6442658954339 74.88516815446164,17.61012080632435,621.5500162491523 74.88106795365886,17.61061281329344,619.941253959906 74.8770283199118,17.61144351149971,620.7083733557051 74.87307998267055,17.6126065820404,620.7394916815832 74.8692529784151,17.61409317759867,620.6264240337315 74.86557642259838,17.61589198960049,620.5775623039483 74.86207828852177,17.61798933406164,620.5929927973482 74.85878519481133,17.62036925547829,621.1807247651503 74.85572220309943,17.62301364797866,625.5221742951344 74.85291262744281,17.62590239282302,623.7148009534664 74.85037785692164,17.62901351121482,626.9550773275912 74.84813719276792,17.63232333127032,628.1878356088097 74.84620770126403,17.6358066678858,632.5160627987113 74.84460408353725,17.63943701414309,632.6660620903623 74.84333856324913,17.64318674280607,638.3791076646146 74.84242079304768,17.64702731638261,643.9080104996146 74.84185778050852,17.65092950416052,644.0842207041001 74.84165383414731,17.65486360457142,644.6830166816721 74.84181052993276,17.65879967119437,643.5798002883415 74.84232669857722,17.66270774068194,648.2177284403108 74.84319843372224,17.66655806087449,654.6776100458052 74.84441912097904,17.67032131736579,650.5529944867061 74.84597948762395,17.67396885679274,659.0305701500881 74.84786767259067,17.67747290514511,668.7062679474187 74.85006931624419,17.68080677942789,672.1334243888101 74.85256766926958,17.68394509105769,673.919050742212 74.85534371985892,17.68686393943628,676.0977944164807 74.85837633823856,17.6895410942188,680.3504961281652 74.86164243744174,17.69195616487864,684.1500385436902 74.86511714910661,17.6940907562681,689.6160035283278 74.8687740129575,17.69592860898013,681.4747155268184 74.87258517852453,17.69745572343258,685.2091549623437 74.87652161755481,17.69866046672062,657.770308776997 74.88055334548693,17.69953366141562,649.5174109419655 74.88461662162344,17.7000657279256,632.3597335495028 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Survey 101/2 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 6 Ha 98 R 92 Sq.Mtr (69,892 Sq.Mtr / 17.2707 Acre / 698.92 Guntha)<br/>
+      <b>Reported Compound Length:</b> 1072.48 m<br/>
+      <b>Reported Boundary:</b> West: 101/1, 101/3<br/><br/>
+      <b>Digitized polygon area:</b> ~6.35 Ha (vs reported 6.9892 Ha -&gt; -9.2% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.88820579999999,17.6583982,0 74.88572910000001,17.6574846,0 74.88629450000001,17.6553706,0 74.8879477,17.6555287,0 74.8881628,17.6570396,0 74.88820579999999,17.6583982,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Zp school no 3</name>
+		<address>JQMP+4G2, Shahada, Mhaswad, Maharashtra 415509</address>
+		<snippet>JQMP+4G2, Shahada, Mhaswad, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6327732&lng=74.7862665&fid=0x3bc3faac018dc76f:0xcda66f15735899ce&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6327732&amp;lng=74.7862665&amp;fid=0x3bc3faac018dc76f:0xcda66f15735899ce&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.7863248,17.6327769,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.7821549849422,17.62964953870664,0 74.7821549849422,17.63590426129336,0 74.79049461505781,17.63590426129336,0 74.79049461505781,17.62964953870664,0 74.7821549849422,17.62964953870664,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Milton Solar</name>
+		<LookAt>
+			<longitude>74.8883838052989</longitude>
+			<latitude>17.65745829067783</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0004869468802538976</heading>
+			<tilt>48.70261644950695</tilt>
+			<range>3067.76324773822</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>74.88902878368452,17.6551094090174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>SR. IDC-2020 (Project No. 356) / U-14 MIDC,1961 (1962 MHA. 3) MIDC Declared Dated On 22 June 2022</name>
+		<LookAt>
+			<longitude>74.88087374450302</longitude>
+			<latitude>17.65836731305714</latitude>
+			<altitude>0</altitude>
+			<heading>2.455755547935738</heading>
+			<tilt>36.78920293774421</tilt>
+			<range>1366.331666037326</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>74.87526814557044,17.65987132297992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Survey 101/3 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 27 Ha 36 R 98 Sq.Mtr (273,698 Sq.Mtr / 67.6321 Acre / 2736.98 Guntha)<br/>
+      <b>Reported Compound Length:</b> 4442.50 m<br/>
+      <b>Reported Boundary:</b> North: 345(Dhuldev) | East: 101/2,101/6,101/5(Hingani) | South: 101/1,101/6,52,101/5,58(Hingani) | West: Dhuldev,53,101/1,51,58(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~26.45 Ha (vs reported 27.3698 Ha -&gt; -3.3% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.889601,17.658932,0 74.8890334,17.659755,0 74.88313549999999,17.6586734,0 74.88005080000001,17.6574271,0 74.8783727,17.6561808,0 74.8779779,17.6562278,0 74.87800249999999,17.6559221,0 74.8799767,17.6555929,0 74.88084050000001,17.6559221,0 74.88128469999999,17.6567216,0 74.8836537,17.6579444,0 74.8855786,17.6574035,0 74.887232,17.658109,0 74.8878982,17.658156,0 74.8880216,17.6574271,0 74.8877995,17.6557105,0 74.8861215,17.6554048,0 74.88506030000001,17.6530298,0 74.889601,17.655734,0 74.8892555,17.6558986,0 74.88977370000001,17.6571449,0 74.889601,17.658932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>Hingani Zilha Parishad School</name>
+		<address>JVQG+GC5, Hingani, Maharashtra 415509</address>
+		<snippet>JVQG+GC5, Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.63063455&lng=74.87552685&fid=0x3bc3f9f8c26010db:0x7caf0f99200d7990&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.63063455&amp;lng=74.87552685&amp;fid=0x3bc3f9f8c26010db:0x7caf0f99200d7990&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>74.87607179999999,17.6387656,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Survey 101/4 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 4 Ha 03 R 19 Sq.Mtr (40,319 Sq.Mtr / 9.9630 Acre / 403.19 Guntha)<br/>
+      <b>Reported Compound Length:</b> 1339.90 m<br/>
+      <b>Reported Boundary:</b> South: 101/5(Hingani) | West: 345(Dhuldev), 101/5(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~3.75 Ha (vs reported 4.0319 Ha -&gt; -7.0% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.8915994,17.6592678,0 74.8909577,17.6579802,0 74.8924633,17.6573217,0 74.89249409999999,17.6570042,0 74.8934629,17.6560517,0 74.8935616,17.6551697,0 74.8937282,17.655105,0 74.8939627,17.6562045,0 74.8937035,17.6563339,0 74.89391329999999,17.6573334,0 74.8933395,17.6577215,0 74.8925497,17.6576509,0 74.8915748,17.6589562,0 74.8915994,17.6592678,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>New English School Dhokmoda</name>
+		<address>JRMX+FPJ, Dhokmoda, Hingani, Maharashtra 415509</address>
+		<snippet>JRMX+FPJ, Dhokmoda, Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6337081&lng=74.849251&fid=0x3bc3fa72eaaaaaab:0xdbe3795eba3d34f&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6337081&amp;lng=74.849251&amp;fid=0x3bc3fa72eaaaaaab:0xdbe3795eba3d34f&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.849251,17.6337081,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.84508120687489,17.63058075515618,0 74.84508120687489,17.63683544484382,0 74.8534207931251,17.63683544484382,0 74.8534207931251,17.63058075515618,0 74.84508120687489,17.63058075515618,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Survey 101/5 (approx. boundary, corrected)</name>
+		<description><![CDATA[<b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 30 Ha 20 R 72 Sq.Mtr (302,072 Sq.Mtr / 74.6435 Acre / 3020.72 Guntha)<br/>
+      <b>Reported Compound Length:</b> 3480.14 m<br/>
+      <b>Reported Boundary:</b> North: Sulewadi,101/3,101/4(Hingani) | East: Sulewadi,137,101/4(Hingani) | South: 137,101/6(Hingani) | West: 101/1,101/3(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~30.63 Ha (vs reported 30.2072 Ha -&gt; +1.4% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>]]></description>
+		<styleUrl>#plotPolyStyle2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.8908205,17.6579945,0 74.8903337,17.656212,0 74.89000059999999,17.6557237,0 74.8893856,17.6553574,0 74.88905250000001,17.6553574,0 74.8850296,17.6528669,0 74.8864645,17.652989,0 74.8893856,17.6503031,0 74.89071800000001,17.6543563,0 74.8921017,17.6539168,0 74.8949203,17.6525739,0 74.8962015,17.6531599,0 74.89609900000001,17.6533308,0 74.8952278,17.6533553,0 74.894741,17.6535506,0 74.8935623,17.6550889,0 74.8934598,17.6559679,0 74.8924604,17.6569445,0 74.8924092,17.6572864,0 74.8908205,17.6579945,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Untitled Path</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				74.88905262067613,17.65974074358983,0 74.88956517129137,17.66003260800246,0 74.89136542630865,17.65882471460707,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Remaiming Polygon</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.88960146016525,17.65890909588183,0 74.88976334963083,17.65712443535745,0 74.88926892618582,17.65588813339504,0 74.88960781734957,17.65573628490805,0 74.88904318380013,17.6553466567754,0 74.8893817548329,17.65536191038554,0 74.89000964152734,17.65572663488392,0 74.89034089028367,17.6562432777825,0 74.89081778406046,17.65796024959236,0 74.89095422937447,17.6579686710589,0 74.89135498909002,17.65881015378951,0 74.88954870175183,17.65996956823945,0 74.88904188906164,17.65970867910859,0 74.88960146016525,17.65890909588183,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Road Conectivity 1</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				74.88957382631693,17.66002912968914,0 74.88970127954089,17.66277735719797,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="1.2.1">
+		<name>ZP Primary School, Aasalwada (Hingani)</name>
+		<address>Hingani, Maharashtra 415509</address>
+		<snippet>Hingani, Maharashtra 415509</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=17.6224951&lng=74.8749426&fid=0x3bc3f990a6dd9195:0xa622e605118c566a&hl=en&gl=in&client=earth-client&cv=7.3.7.1327&useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=17.6224951&amp;lng=74.8749426&amp;fid=0x3bc3f990a6dd9195:0xa622e605118c566a&amp;hl=en&amp;gl=in&amp;client=earth-client&amp;cv=7.3.7.1327&amp;useragent=GoogleEarth/7.3.7.1327(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>74.8749447,17.6224614,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					74.87077465464867,17.6193338659865,0 74.87077465464867,17.6255889340135,0 74.87911474535133,17.6255889340135,0 74.87911474535133,17.6193338659865,0 74.87077465464867,17.6193338659865,0 
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>Road Connectivity 2</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				74.87798406311616,17.65620910569011,0 74.87798875093674,17.65657755036159,0 74.87765146857332,17.65678365725437,0 74.87739780835017,17.65694213715363,0 74.8773839360228,17.6569578866213,0 74.87734146703272,17.65700973739603,0 74.87731937567241,17.65703901919409,0 74.87728334865531,17.65708346204633,0 74.87726282706095,17.6571054024511,0 74.87722158682267,17.65714931556132,0 74.87718161362278,17.65718657482003,0 74.87716244733825,17.6572015406264,0 74.8771380622255,17.65721652663024,0 74.87711551399356,17.65722401044038,0 74.87709486789645,17.65722395184064,0 74.87707813248687,17.65720882315786,0 74.87687602833971,17.65735490957177,0 74.87675360692421,17.65742702410319,0 74.87660785896243,17.65784218933634,0 74.87625866595923,17.65812676910096,0 74.87608600216875,17.6580716620608,0 74.8758731750529,17.65803740604932,0 74.87567734369431,17.65810191186357,0 74.8752890452417,17.65844919516594,0 74.87523456675491,17.65850551271258,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

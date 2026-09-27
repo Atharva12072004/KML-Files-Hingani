@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Hingani (Man, Satara) - Survey No. 101 Sub-plots - APPROXIMATE Boundaries (v2, corrected)</name>
+  <description><![CDATA[
+    APPROXIMATE, DIGITIZED boundary polygons for Survey No. 101 sub-plots (101/2, 101/3, 101/4, 101/5),
+    Hingani village, Man taluka, Satara district, Maharashtra.<br/><br/>
+    <b>Method:</b> traced the yellow boundary line from each report's satellite-map image, calibrated scale using
+    the line's own centerline length (averaging its outer and inner edge, to correct for the line's drawn thickness)
+    against the report's stated compound length, oriented using the printed North arrow, and anchored using the
+    report's given Lat/Long as the polygon's centroid.<br/><br/>
+    <b>Accuracy (v2, corrected):</b> digitized area vs. reported area is within -9.2% to +1.4% across the 4 plots
+    (avg abs. error ~5%) - see per-plot notes below for exact figures. This is a strong visual approximation,
+    NOT survey-grade or legally valid data. For anything official, use a licensed surveyor or the government
+    cadastral portal (Bhulekh / MahaBhunakasha).
+  ]]></description>
+
+  <Style id="plotPolyStyle">
+    <LineStyle><color>ff00ffff</color><width>3</width></LineStyle>
+    <PolyStyle><color>4d00ffff</color></PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>Survey 101/2 (approx. boundary, corrected)</name>
+    <styleUrl>#plotPolyStyle</styleUrl>
+    <description><![CDATA[
+      <b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 6 Ha 98 R 92 Sq.Mtr (69,892 Sq.Mtr / 17.2707 Acre / 698.92 Guntha)<br/>
+      <b>Reported Compound Length:</b> 1072.48 m<br/>
+      <b>Reported Boundary:</b> West: 101/1, 101/3<br/><br/>
+      <b>Digitized polygon area:</b> ~6.35 Ha (vs reported 6.9892 Ha -&gt; -9.2% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>
+    ]]></description>
+    <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>74.8882058,17.6583982,0 74.8857291,17.6574846,0 74.8862945,17.6553706,0 74.8879477,17.6555287,0 74.8881628,17.6570396,0 74.8882058,17.6583982,0</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>Survey 101/3 (approx. boundary, corrected)</name>
+    <styleUrl>#plotPolyStyle</styleUrl>
+    <description><![CDATA[
+      <b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 27 Ha 36 R 98 Sq.Mtr (273,698 Sq.Mtr / 67.6321 Acre / 2736.98 Guntha)<br/>
+      <b>Reported Compound Length:</b> 4442.50 m<br/>
+      <b>Reported Boundary:</b> North: 345(Dhuldev) | East: 101/2,101/6,101/5(Hingani) | South: 101/1,101/6,52,101/5,58(Hingani) | West: Dhuldev,53,101/1,51,58(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~26.45 Ha (vs reported 27.3698 Ha -&gt; -3.3% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>
+    ]]></description>
+    <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>74.889601,17.658932,0 74.8890334,17.659755,0 74.8831355,17.6586734,0 74.8800508,17.6574271,0 74.8783727,17.6561808,0 74.8779779,17.6562278,0 74.8780025,17.6559221,0 74.8799767,17.6555929,0 74.8808405,17.6559221,0 74.8812847,17.6567216,0 74.8836537,17.6579444,0 74.8855786,17.6574035,0 74.887232,17.658109,0 74.8878982,17.658156,0 74.8880216,17.6574271,0 74.8877995,17.6557105,0 74.8861215,17.6554048,0 74.8850603,17.6530298,0 74.889601,17.655734,0 74.8892555,17.6558986,0 74.8897737,17.6571449,0 74.889601,17.658932,0</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>Survey 101/4 (approx. boundary, corrected)</name>
+    <styleUrl>#plotPolyStyle</styleUrl>
+    <description><![CDATA[
+      <b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 4 Ha 03 R 19 Sq.Mtr (40,319 Sq.Mtr / 9.9630 Acre / 403.19 Guntha)<br/>
+      <b>Reported Compound Length:</b> 1339.90 m<br/>
+      <b>Reported Boundary:</b> South: 101/5(Hingani) | West: 345(Dhuldev), 101/5(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~3.75 Ha (vs reported 4.0319 Ha -&gt; -7.0% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>
+    ]]></description>
+    <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>74.8915994,17.6592678,0 74.8909577,17.6579802,0 74.8924633,17.6573217,0 74.8924941,17.6570042,0 74.8934629,17.6560517,0 74.8935616,17.6551697,0 74.8937282,17.655105,0 74.8939627,17.6562045,0 74.8937035,17.6563339,0 74.8939133,17.6573334,0 74.8933395,17.6577215,0 74.8925497,17.6576509,0 74.8915748,17.6589562,0 74.8915994,17.6592678,0</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+  <Placemark>
+    <name>Survey 101/5 (approx. boundary, corrected)</name>
+    <styleUrl>#plotPolyStyle</styleUrl>
+    <description><![CDATA[
+      <b>Village:</b> Hingani | <b>Taluka:</b> Man | <b>District:</b> Satara<br/>
+      <b>Reported Area:</b> 30 Ha 20 R 72 Sq.Mtr (302,072 Sq.Mtr / 74.6435 Acre / 3020.72 Guntha)<br/>
+      <b>Reported Compound Length:</b> 3480.14 m<br/>
+      <b>Reported Boundary:</b> North: Sulewadi,101/3,101/4(Hingani) | East: Sulewadi,137,101/4(Hingani) | South: 137,101/6(Hingani) | West: 101/1,101/3(Hingani)<br/><br/>
+      <b>Digitized polygon area:</b> ~30.63 Ha (vs reported 30.2072 Ha -&gt; +1.4% difference)<br/>
+      <i>Boundary digitized from report map image using centerline calibration - approximate, not survey-grade.</i>
+    ]]></description>
+    <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>74.8908205,17.6579945,0 74.8903337,17.656212,0 74.8900006,17.6557237,0 74.8893856,17.6553574,0 74.8890525,17.6553574,0 74.8850296,17.6528669,0 74.8864645,17.652989,0 74.8893856,17.6503031,0 74.890718,17.6543563,0 74.8921017,17.6539168,0 74.8949203,17.6525739,0 74.8962015,17.6531599,0 74.896099,17.6533308,0 74.8952278,17.6533553,0 74.894741,17.6535506,0 74.8935623,17.6550889,0 74.8934598,17.6559679,0 74.8924604,17.6569445,0 74.8924092,17.6572864,0 74.8908205,17.6579945,0</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+</Document>
+</kml>
